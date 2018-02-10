@@ -1,9 +1,67 @@
 body {
-    width: 800px;
-    margin: auto;
-    background-color: currentColor;
+
+    background-image: url(../img/Vecteur.png);
+    background-repeat: no-repeat;
+}
+
+#title {
+    height: 50px;
+    font-size: 3em;
+    text-align: center;
+    color: crimson;
+    /*    border: 2px solid black;*/
 }
 
 #container {
-    background-color: gray;
+    /*    width: 900px;*/
+    /*    margin: auto;*/
+    /*    background-image: url(../img/Vecteur.png);*/
+}
+
+#multibox {
+    margin-top: 20px;
+    padding: 20px;
+    height: auto;
+
+}
+
+#logo {
+    float: left;
+    height: 50px;
+    background-image: url(../img/LogoCGIico.png);
+}
+
+#region {
+    float: right;
+    height: 70px;
+    border: 2px solid black;
+
+}
+
+#box_one {
+    border: 2px solid black;
+    height: 250px;
+    margin-bottom: 10px;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+#box_two {
+    border: 2px solid black;
+    height: 250px;
+    margin-bottom: 10px;
+}
+
+#box_three {
+    border: 2px solid black;
+    height: 250px;
+}
+
+#box_four {
+    border: 2px solid black;
+    height: 250px;
+}
+
+#box_tchat {
+    border: 2px solid black;
+    height: 250px;
 }
