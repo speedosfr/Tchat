@@ -1,9 +1,6 @@
 body {
-
     background: url(../img/Vecteur.png) no-repeat center fixed;
     background-size: 100% auto;
-    background-position: ;
-
 }
 
 #title {
@@ -16,34 +13,43 @@ body {
 }
 
 #container {
-    /*    width: 900px;*/
-    /*    margin: auto;*/
-    /*    background-image: url(../img/Vecteur.png);*/
+    margin-top: 45px;
 }
 
-#multibox {
-    margin-top: 20px;
-    padding: 20px;
-    height: auto;
+#region img {
 
-}
-
-#logo {
-    float: left;
-    height: 50px;
-    background-image: url(../img/LogoCGIico.png);
+    max-width: 200px;
 }
 
 #region {
-    float: right;
-
-    height: 55px;
-    margin-bottom: 10px;
-    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Flag_of_Pays-de-la-Loire.svg/720px-Flag_of_Pays-de-la-Loire.svg.png");
-    background-repeat: no-repeat;
-    background-size: 100% auto;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 10px;
+    height: auto;
+    background-color: rgba(255, 255, 255, 0.9);
     box-shadow: 6px 6px 56px black;
+}
 
+#logo {
+    height: 50px;
+    font-size: 3em;
+    font-weight: bold;
+    text-align: center;
+    text-shadow: 20px 0px 9px #777;
+    color: crimson;
+}
+
+.card-img-top {
+    max-width: 250px;
+    box-shadow: 6px 6px 56px black;
+}
+
+.card-title {
+    text-align: center;
+}
+
+.card-text {
+    text-align: center;
 }
 
 #box_one {
@@ -59,7 +65,8 @@ body {
 #box_two {
     border: 1px solid black;
     border-radius: 10px;
-    height: 250px;
+    height: auto;
+    padding: 15px;
     margin-bottom: 10px;
     background-color: rgba(255, 255, 255, 0.9);
     box-shadow: 6px 6px 56px black;
@@ -68,23 +75,27 @@ body {
 #box_three {
     border: 1px solid black;
     border-radius: 10px;
-    height: 250px;
+    height: auto;
+    padding: 15px;
     background-color: rgba(255, 255, 255, 0.9);
     box-shadow: 6px 6px 56px black;
+    margin-bottom: 10px;
 }
 
 #box_four {
     border: 1px solid black;
     border-radius: 10px;
-    height: 250px;
+    height: auto;
+    padding: 15px;
     background-color: rgba(255, 255, 255, 0.9);
     box-shadow: 6px 6px 56px black;
+    margin-bottom: 10px;
 }
 
 #box_tchat {
     border: 1px solid black;
     border-radius: 10px;
-    height: 250px;
+    height: 220px;
     background-color: rgba(255, 255, 255, 0.9);
     box-shadow: 6px 6px 56px black;
 }
