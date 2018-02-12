@@ -8,7 +8,6 @@ body {
     font-size: 3em;
     font-weight: bold;
     text-align: center;
-    text-shadow: 20px 0px 9px #777;
     color: crimson;
 }
 
@@ -16,18 +15,20 @@ body {
     margin-top: 45px;
 }
 
-#region img {
-
+#block_region img {
     max-width: 200px;
 }
 
-#region {
+#block_region {
     text-align: center;
+    padding: 5px;
+    margin-bottom: 15px;
+    margin-top: 25px;
     border: 1px solid black;
     border-radius: 10px;
     height: auto;
     background-color: rgba(255, 255, 255, 0.9);
-    box-shadow: 6px 6px 56px black;
+    box-shadow: 6px 6px 10px gray;
 }
 
 #logo {
@@ -35,14 +36,10 @@ body {
     font-size: 3em;
     font-weight: bold;
     text-align: center;
-    text-shadow: 20px 0px 9px #777;
     color: crimson;
 }
 
-.card-img-top {
-    max-width: 250px;
-    box-shadow: 6px 6px 56px black;
-}
+.card-img-top {}
 
 .card-title {
     text-align: center;
@@ -52,50 +49,19 @@ body {
     text-align: center;
 }
 
-#box_one {
+.block {
     border: 1px solid black;
     border-radius: 10px;
     height: auto;
-    padding: 15px;
+    margin-left: 15px;
+    padding: 20px;
     margin-bottom: 10px;
     background-color: rgba(255, 255, 255, 0.9);
-    box-shadow: 6px 6px 56px black;
+    box-shadow: 6px 6px 10px gray;
 }
 
-#box_two {
-    border: 1px solid black;
-    border-radius: 10px;
-    height: auto;
-    padding: 15px;
-    margin-bottom: 10px;
-    background-color: rgba(255, 255, 255, 0.9);
-    box-shadow: 6px 6px 56px black;
-}
+#block_tchat {
+    height: 200px;
 
-#box_three {
-    border: 1px solid black;
-    border-radius: 10px;
-    height: auto;
-    padding: 15px;
-    background-color: rgba(255, 255, 255, 0.9);
-    box-shadow: 6px 6px 56px black;
-    margin-bottom: 10px;
-}
 
-#box_four {
-    border: 1px solid black;
-    border-radius: 10px;
-    height: auto;
-    padding: 15px;
-    background-color: rgba(255, 255, 255, 0.9);
-    box-shadow: 6px 6px 56px black;
-    margin-bottom: 10px;
-}
-
-#box_tchat {
-    border: 1px solid black;
-    border-radius: 10px;
-    height: 220px;
-    background-color: rgba(255, 255, 255, 0.9);
-    box-shadow: 6px 6px 56px black;
 }
