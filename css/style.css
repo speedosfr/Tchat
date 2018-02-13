@@ -12,11 +12,11 @@ body {
 }
 
 #container {
-    margin-top: 45px;
+    margin-top: 20px;
 }
 
 #block_region img {
-    max-width: 200px;
+    max-width: 180px;
 }
 
 #block_region {
